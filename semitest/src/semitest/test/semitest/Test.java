@@ -5,6 +5,9 @@ public class Test {
 	private String name;
 	
 	private String juwhanInform() {
-		return "주환 바보^^";
+		return "솔민 바보^^";
 	}
+	
+	
+	
 }

@@ -20,6 +20,12 @@ public class Sol {
 	public int getAge() {
 		return age;
 	}
+	public Sol(String name, int age, double height) {
+		super();
+		this.name = name;
+		this.age = age;
+		this.height = height;
+	}
 
 	public void setAge(int age) {
 		this.age = age;
@@ -33,11 +39,6 @@ public class Sol {
 		this.height = height;
 	}
 
-	public Sol(String name, int age, double height) {
-		super();
-		this.name = name;
-		this.age = age;
-		this.height = height;
-	}
+	
 	
 }

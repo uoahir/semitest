@@ -7,6 +7,7 @@ import java.sql.PreparedStatement;
 
 public class Test {
 	
+
 	Connection conn = null;
 	PreparedStatement pstmt = null;
 	public void checkConnection() {
@@ -24,7 +25,15 @@ public class Test {
 			e.printStackTrace();
 		}
 	}
-	
+
+
+	public int sameNumber() {
+		return 0; 
+	}
+
+	private String juwhanInform() {
+		return "솔민 바보^^";
+	}
 	
 	
 	

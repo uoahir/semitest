@@ -40,4 +40,6 @@ public class Sol {
 		this.height = height;
 	}
 	
+	
+	
 }

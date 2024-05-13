@@ -40,6 +40,8 @@ public class Sol {
 		this.height = height;
 	}
 	
-	
+	public void jihee() {
+		String cake="twosomeplace";
+	}
 	
 }

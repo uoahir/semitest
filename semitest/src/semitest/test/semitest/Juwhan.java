@@ -3,55 +3,16 @@ package semitest.test.semitest;
 import java.util.Objects;
 
 public class Juwhan {
-	private String name = "김주환";
-	private int age = 25;
-	private double height = 183.4;
-	
-	public Juwhan() {
-		// TODO Auto-generated constructor stub
-	}
-
-	public Juwhan(String name, int age, double height) {
-		super();
-		this.name = name;
-		this.age = age;
-		this.height = height;
-	}
-
-	public String getName() {
-		return name;
-	}
-
-	public void setName(String name) {
-		this.name = name;
-	}
-
-	public int getAge() {
-		return age;
-	}
-
-	public void setAge(int age) {
-		this.age = age;
-	}
-
-	public double getHeight() {
-		return height;
-	}
-
-	public void setHeight(double height) {
-		this.height = height;
-	}
-
+	private int age = 12;
+	private double wheight = 200;
 	@Override
 	public String toString() {
-		return "Juwhan [name=" + name + ", age=" + age + ", height=" + height + "]";
+		return "Juwhan [age=" + age + ", wheight=" + wheight + "]";
 	}
-
 	@Override
 	public int hashCode() {
-		return Objects.hash(age, height, name);
+		return Objects.hash(age, wheight);
 	}
-
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)
@@ -61,8 +22,23 @@ public class Juwhan {
 		if (getClass() != obj.getClass())
 			return false;
 		Juwhan other = (Juwhan) obj;
-		return age == other.age && Double.doubleToLongBits(height) == Double.doubleToLongBits(other.height)
-				&& Objects.equals(name, other.name);
+		return age == other.age && Double.doubleToLongBits(wheight) == Double.doubleToLongBits(other.wheight);
+	}
+	public int getAge() {
+		return age;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
+	public double getWheight() {
+		return wheight;
+	}
+	public void setWheight(double wheight) {
+		this.wheight = wheight;
+	}
+	
+	public Juwhan() {
+		// TODO Auto-generated constructor stub
 	}
 	
 }

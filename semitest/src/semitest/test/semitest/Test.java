@@ -31,8 +31,8 @@ public class Test {
 		return 0; 
 	}
 
-	
-	
-	
-	
+	private String juwhanInform() {
+		return "솔민 바보^^ 멍청이";
+	}
 }
+

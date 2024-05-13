@@ -32,7 +32,7 @@ public class Test {
 	}
 
 	private String juwhanInform() {
-		return "솔민 바보^^ 나이키 지히";
+		return "지희 바보^^";
 	}
 	
 	

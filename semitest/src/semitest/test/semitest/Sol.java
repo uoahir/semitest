@@ -41,4 +41,8 @@ public class Sol {
 
 	
 	
+	public void jihee() {
+		String cake="twosomeplace";
+	}
+	
 }

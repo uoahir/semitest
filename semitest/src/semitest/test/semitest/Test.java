@@ -31,9 +31,7 @@ public class Test {
 		return 0; 
 	}
 
-	private String juwhanInform() {
-		return "지희 바보^^";
-	}
+	
 	
 	
 	

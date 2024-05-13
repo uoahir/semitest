@@ -39,7 +39,7 @@ public class Test {
 	}
 
 	private String juwhanInform() {
-		return "솔민 바보^^";
+		return "솔민 바보^^ 멍청이";
 	}
-
 }
+

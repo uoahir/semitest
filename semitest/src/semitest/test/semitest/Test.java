@@ -6,7 +6,14 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 
 public class Test {
+	private static Test test;
 	
+	private Test() { }
+	
+	public static Test getTest() {
+		if(test == null) return test = new Test();
+		else return test;
+	}
 
 	Connection conn = null;
 	PreparedStatement pstmt = null;
